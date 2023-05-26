@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <!-- javascript  -->
+    <script src="script.js" defer></script>
+    <title>Frontend Mentor | Age calculator app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form method="post">
+        <div class="date">
+          <label for="day">Days</label>
+          <input
+            type="number"
+            name="day"
+            class="inputs"
+            id="day"
+            placeholder="DD"
+          />
+          <p class="para"></p>
+        </div>
+        <div class="date">
+          <label for="month">Months</label>
+          <input
+            type="number"
+            name="month"
+            class="inputs"
+            id="month"
+            placeholder="MM"
+          />
+          <p class="para"></p>
+        </div>
+        <div class="date">
+          <label for="year">Years</label>
+          <input
+            type="number"
+            name="years"
+            class="inputs"
+            id="year"
+            placeholder="YYYY"
+          />
+          <p class="para"></p>
+        </div>
+      </form>
+      <div class="calculate">
+        <hr />
+        <button class="calculate-btn">
+          <img src="assets/images/icon-arrow.svg" alt="" />
+        </button>
+      </div>
+      <div class="answer">
+        <h1><strong class="year-answer">--</strong>years</h1>
+        <h1><strong class="month-answer">--</strong>months</h1>
+        <h1><strong class="day-answer">--</strong>days</h1>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/vishaldewani206">Vishal</a>.
+      </div>
+    </div>
+  </body>
+</html>
